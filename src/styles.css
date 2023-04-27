@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 70vw;
+  justify-content: center;
+}
+.form__option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form__label {
+  height: 19px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #373330;
+}
+.form__star {
+  color: #ff1a3d;
+  margin-left: 2px;
+}
